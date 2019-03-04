@@ -1,0 +1,1 @@
+curl -F "data=@fichier.sb3" http://localhost:8888/upload
