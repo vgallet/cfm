@@ -1,6 +1,7 @@
 package zenika.cfm;
 
 import io.vertx.core.Vertx;
+import zenika.cfm.verticle.HttpServerVerticle;
 
 public class Application {
 

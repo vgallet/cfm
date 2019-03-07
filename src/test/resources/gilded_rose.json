@@ -1,0 +1,3786 @@
+{
+  "targets": [
+    {
+      "isStage": true,
+      "name": "Stage",
+      "variables": {
+        "C;]_eK(LJ[;-+~Y|M96`": [
+          "new Item",
+          9
+        ],
+        "3!@8BH[HU|Q6viSe!--0": [
+          "i",
+          10
+        ]
+      },
+      "lists": {
+        "Lu?*1I:gla}Z^{v-h`Q`": [
+          "Item.name",
+          [
+            "+5 Dexterity Vest",
+            "Aged Brie",
+            "Elixir of the Mongoose",
+            "Sulfuras, Hand of Ragnaros",
+            "Sulfuras, Hand of Ragnaros",
+            "Backstage passes to a TAFKAL80ETC concert",
+            "Backstage passes to a TAFKAL80ETC concert",
+            "Backstage passes to a TAFKAL80ETC concert",
+            "Conjured Mana Cake"
+          ]
+        ],
+        "eo!F=U;lWYkZiS={}%(u": [
+          "Item.sellIn",
+          [
+            8,
+            0,
+            3,
+            "0",
+            "-1",
+            13,
+            8,
+            3,
+            1
+          ]
+        ],
+        "O*4g4jWG]3WY1J^GXb+|": [
+          "Item.quality",
+          [
+            18,
+            2,
+            5,
+            "80",
+            "80",
+            22,
+            50,
+            50,
+            4
+          ]
+        ],
+        "RZ@mb}o\/cM@bWIe3g%y;": [
+          "items",
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        ]
+      },
+      "broadcasts": {
+
+      },
+      "blocks": {
+
+      },
+      "comments": {
+
+      },
+      "currentCostume": 0,
+      "costumes": [
+        {
+          "assetId": "cd21514d0531fdffb22204e0ec5ed84a",
+          "name": "arri\u00e8re plan1",
+          "md5ext": "cd21514d0531fdffb22204e0ec5ed84a.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 240,
+          "rotationCenterY": 180
+        }
+      ],
+      "sounds": [
+        {
+          "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+          "name": "pop",
+          "dataFormat": "wav",
+          "format": "",
+          "rate": 44100,
+          "sampleCount": 1032,
+          "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+        }
+      ],
+      "volume": 100,
+      "layerOrder": 0,
+      "tempo": 60,
+      "videoTransparency": 50,
+      "videoState": "on",
+      "textToSpeechLanguage": null
+    },
+    {
+      "isStage": false,
+      "name": "Sprite1",
+      "variables": {
+
+      },
+      "lists": {
+
+      },
+      "broadcasts": {
+
+      },
+      "blocks": {
+        "Z2_JIoipQX+yeFfJG[V^": {
+          "opcode": "procedures_definition",
+          "next": "9}r}*yUqDy~OB{H4tQOX",
+          "parent": null,
+          "inputs": {
+            "custom_block": [
+              1,
+              "Q!A0TluBHRQ]}vOK05W!"
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": true,
+          "x": -669,
+          "y": -1515
+        },
+        "Q!A0TluBHRQ]}vOK05W!": {
+          "opcode": "procedures_prototype",
+          "next": null,
+          "parent": "Z2_JIoipQX+yeFfJG[V^",
+          "inputs": {
+            "e3V;=6|S.0VsX1s|a[~;": [
+              1,
+              ":A0|K^WW`eiR`:S1.lng"
+            ],
+            ",1Bk_6G2:0ep8}FHeLeI": [
+              1,
+              "V0n+qk]sYM`xTU{EG5tX"
+            ],
+            ";w8tDQX8Bs%2K,nrJ3HX": [
+              1,
+              "T|dhfLGxD:mDMPqO^9;N"
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": true,
+          "topLevel": false,
+          "mutation": {
+            "tagName": "mutation",
+            "children": [
+
+            ],
+            "proccode": "new Item name: %s sellIn: %s quality: %s",
+            "argumentids": "[\"e3V;=6|S.0VsX1s|a[~;\",\",1Bk_6G2:0ep8}FHeLeI\",\";w8tDQX8Bs%2K,nrJ3HX\"]",
+            "argumentnames": "[\"name\",\"sellIn\",\"quality\"]",
+            "argumentdefaults": "[\"\",\"\",\"\",\"\"]",
+            "warp": "false"
+          }
+        },
+        ":A0|K^WW`eiR`:S1.lng": {
+          "opcode": "argument_reporter_string_number",
+          "next": null,
+          "parent": "Q!A0TluBHRQ]}vOK05W!",
+          "inputs": {
+
+          },
+          "fields": {
+            "VALUE": [
+              "name",
+              null
+            ]
+          },
+          "shadow": true,
+          "topLevel": false
+        },
+        "V0n+qk]sYM`xTU{EG5tX": {
+          "opcode": "argument_reporter_string_number",
+          "next": null,
+          "parent": "Q!A0TluBHRQ]}vOK05W!",
+          "inputs": {
+
+          },
+          "fields": {
+            "VALUE": [
+              "sellIn",
+              null
+            ]
+          },
+          "shadow": true,
+          "topLevel": false
+        },
+        "T|dhfLGxD:mDMPqO^9;N": {
+          "opcode": "argument_reporter_string_number",
+          "next": null,
+          "parent": "Q!A0TluBHRQ]}vOK05W!",
+          "inputs": {
+
+          },
+          "fields": {
+            "VALUE": [
+              "quality",
+              null
+            ]
+          },
+          "shadow": true,
+          "topLevel": false
+        },
+        "9}r}*yUqDy~OB{H4tQOX": {
+          "opcode": "data_addtolist",
+          "next": "-ZvjKDJSfCvQ}e2I:2aA",
+          "parent": "Z2_JIoipQX+yeFfJG[V^",
+          "inputs": {
+            "ITEM": [
+              3,
+              ";]nwjA)QV2f84zU^}p$m",
+              [
+                10,
+                "name"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "Item.name",
+              "Lu?*1I:gla}Z^{v-h`Q`"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "-ZvjKDJSfCvQ}e2I:2aA": {
+          "opcode": "data_addtolist",
+          "next": "c1+:6[o{X!EZU_?#pz5r",
+          "parent": "9}r}*yUqDy~OB{H4tQOX",
+          "inputs": {
+            "ITEM": [
+              3,
+              "Z3APVp@YK6Bfnp@?tgsP",
+              [
+                10,
+                "sellIn"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "Item.sellIn",
+              "eo!F=U;lWYkZiS={}%(u"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "c1+:6[o{X!EZU_?#pz5r": {
+          "opcode": "data_addtolist",
+          "next": "JQ8qxt.$H?*]=UeWlU8z",
+          "parent": "-ZvjKDJSfCvQ}e2I:2aA",
+          "inputs": {
+            "ITEM": [
+              3,
+              "03a)Mr}A0\/f3=!]y$#fF",
+              [
+                10,
+                "quality"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "Item.quality",
+              "O*4g4jWG]3WY1J^GXb+|"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        ";]nwjA)QV2f84zU^}p$m": {
+          "opcode": "argument_reporter_string_number",
+          "next": null,
+          "parent": "9}r}*yUqDy~OB{H4tQOX",
+          "inputs": {
+
+          },
+          "fields": {
+            "VALUE": [
+              "name",
+              null
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "Z3APVp@YK6Bfnp@?tgsP": {
+          "opcode": "argument_reporter_string_number",
+          "next": null,
+          "parent": "-ZvjKDJSfCvQ}e2I:2aA",
+          "inputs": {
+
+          },
+          "fields": {
+            "VALUE": [
+              "sellIn",
+              null
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "03a)Mr}A0\/f3=!]y$#fF": {
+          "opcode": "argument_reporter_string_number",
+          "next": null,
+          "parent": "c1+:6[o{X!EZU_?#pz5r",
+          "inputs": {
+
+          },
+          "fields": {
+            "VALUE": [
+              "quality",
+              null
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "SA1%\/$d0NviJqIj7``pq": {
+          "opcode": "procedures_definition",
+          "next": ",xOR%d*7j53GMR!wRpJ)",
+          "parent": null,
+          "inputs": {
+            "custom_block": [
+              1,
+              "(M.Rwflzt(\/uTZ|O3yL|"
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": true,
+          "x": -668,
+          "y": -1190
+        },
+        "(M.Rwflzt(\/uTZ|O3yL|": {
+          "opcode": "procedures_prototype",
+          "next": null,
+          "parent": "SA1%\/$d0NviJqIj7``pq",
+          "inputs": {
+            "\/]TlN9q3Bre[mUNf*4jZ": [
+              1,
+              "m91){J))$E}Y+Y4ayzOR"
+            ],
+            "AvPf=E8#|do0~vW@vB}i": [
+              1,
+              "gKDj*6-cc^TUu\/O_Bel,"
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": true,
+          "topLevel": false,
+          "mutation": {
+            "tagName": "mutation",
+            "children": [
+
+            ],
+            "proccode": "Item %s .setSellIn %s",
+            "argumentids": "[\"\/]TlN9q3Bre[mUNf*4jZ\",\"AvPf=E8#|do0~vW@vB}i\"]",
+            "argumentnames": "[\"this\",\"sellIn\"]",
+            "argumentdefaults": "[\"\",\"\"]",
+            "warp": "false"
+          }
+        },
+        "m91){J))$E}Y+Y4ayzOR": {
+          "opcode": "argument_reporter_string_number",
+          "next": null,
+          "parent": "(M.Rwflzt(\/uTZ|O3yL|",
+          "inputs": {
+
+          },
+          "fields": {
+            "VALUE": [
+              "this",
+              null
+            ]
+          },
+          "shadow": true,
+          "topLevel": false
+        },
+        "gKDj*6-cc^TUu\/O_Bel,": {
+          "opcode": "argument_reporter_string_number",
+          "next": null,
+          "parent": "(M.Rwflzt(\/uTZ|O3yL|",
+          "inputs": {
+
+          },
+          "fields": {
+            "VALUE": [
+              "sellIn",
+              null
+            ]
+          },
+          "shadow": true,
+          "topLevel": false
+        },
+        ",xOR%d*7j53GMR!wRpJ)": {
+          "opcode": "data_replaceitemoflist",
+          "next": null,
+          "parent": "SA1%\/$d0NviJqIj7``pq",
+          "inputs": {
+            "INDEX": [
+              3,
+              "qm$BFhb|z{|f}z?EPs@H",
+              [
+                7,
+                "1"
+              ]
+            ],
+            "ITEM": [
+              3,
+              "6}nIg]Q+PocLaAGjbiNT",
+              [
+                10,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "Item.sellIn",
+              "eo!F=U;lWYkZiS={}%(u"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "qm$BFhb|z{|f}z?EPs@H": {
+          "opcode": "argument_reporter_string_number",
+          "next": null,
+          "parent": ",xOR%d*7j53GMR!wRpJ)",
+          "inputs": {
+
+          },
+          "fields": {
+            "VALUE": [
+              "this",
+              null
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "6}nIg]Q+PocLaAGjbiNT": {
+          "opcode": "argument_reporter_string_number",
+          "next": null,
+          "parent": ",xOR%d*7j53GMR!wRpJ)",
+          "inputs": {
+
+          },
+          "fields": {
+            "VALUE": [
+              "sellIn",
+              null
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "Q9CfJLh+Q{4R%v{U%.RE": {
+          "opcode": "procedures_definition",
+          "next": "l(VCac)RCI1NTYYX+bVR",
+          "parent": null,
+          "inputs": {
+            "custom_block": [
+              1,
+              "6lz2gZ(GKO\/vZq.MBaC1"
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": true,
+          "x": -674,
+          "y": -1039
+        },
+        "6lz2gZ(GKO\/vZq.MBaC1": {
+          "opcode": "procedures_prototype",
+          "next": null,
+          "parent": "Q9CfJLh+Q{4R%v{U%.RE",
+          "inputs": {
+            "l\/7.6]UY!6:Jr[+Af]7h": [
+              1,
+              "M#h0\/XJ#z#t%sEmp)lT4"
+            ],
+            "3_|W96M3f1n[:tE|DDB;": [
+              1,
+              "M2B~3iE;?fOP@$AEi:#T"
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": true,
+          "topLevel": false,
+          "mutation": {
+            "tagName": "mutation",
+            "children": [
+
+            ],
+            "proccode": "Item %s .setQuality %s",
+            "argumentids": "[\"l\/7.6]UY!6:Jr[+Af]7h\",\"3_|W96M3f1n[:tE|DDB;\"]",
+            "argumentnames": "[\"this\",\"quality\"]",
+            "argumentdefaults": "[\"\",\"\"]",
+            "warp": "false"
+          }
+        },
+        "M#h0\/XJ#z#t%sEmp)lT4": {
+          "opcode": "argument_reporter_string_number",
+          "next": null,
+          "parent": "6lz2gZ(GKO\/vZq.MBaC1",
+          "inputs": {
+
+          },
+          "fields": {
+            "VALUE": [
+              "this",
+              null
+            ]
+          },
+          "shadow": true,
+          "topLevel": false
+        },
+        "M2B~3iE;?fOP@$AEi:#T": {
+          "opcode": "argument_reporter_string_number",
+          "next": null,
+          "parent": "6lz2gZ(GKO\/vZq.MBaC1",
+          "inputs": {
+
+          },
+          "fields": {
+            "VALUE": [
+              "quality",
+              null
+            ]
+          },
+          "shadow": true,
+          "topLevel": false
+        },
+        "l(VCac)RCI1NTYYX+bVR": {
+          "opcode": "data_replaceitemoflist",
+          "next": null,
+          "parent": "Q9CfJLh+Q{4R%v{U%.RE",
+          "inputs": {
+            "INDEX": [
+              3,
+              "i=hF5,hJlZDBGAzB-Op6",
+              [
+                7,
+                "1"
+              ]
+            ],
+            "ITEM": [
+              3,
+              "hw-,+bAR%*xrg#eF]xX5",
+              [
+                10,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "Item.quality",
+              "O*4g4jWG]3WY1J^GXb+|"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "i=hF5,hJlZDBGAzB-Op6": {
+          "opcode": "argument_reporter_string_number",
+          "next": null,
+          "parent": "l(VCac)RCI1NTYYX+bVR",
+          "inputs": {
+
+          },
+          "fields": {
+            "VALUE": [
+              "this",
+              null
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "hw-,+bAR%*xrg#eF]xX5": {
+          "opcode": "argument_reporter_string_number",
+          "next": null,
+          "parent": "l(VCac)RCI1NTYYX+bVR",
+          "inputs": {
+
+          },
+          "fields": {
+            "VALUE": [
+              "quality",
+              null
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "7I_(\/NK`uk9ZT-^j9Kuy": {
+          "opcode": "event_whenflagclicked",
+          "next": "=.Bk$,s8LHVm{%NC*QHL",
+          "parent": null,
+          "inputs": {
+
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": true,
+          "x": -85,
+          "y": -1532
+        },
+        "=.Bk$,s8LHVm{%NC*QHL": {
+          "opcode": "data_deletealloflist",
+          "next": "o}$=bZWKX=N}1ZN_exm;",
+          "parent": "7I_(\/NK`uk9ZT-^j9Kuy",
+          "inputs": {
+
+          },
+          "fields": {
+            "LIST": [
+              "items",
+              "RZ@mb}o\/cM@bWIe3g%y;"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "o}$=bZWKX=N}1ZN_exm;": {
+          "opcode": "data_deletealloflist",
+          "next": "bcErxuq*kB@$E,*[1%:]",
+          "parent": "=.Bk$,s8LHVm{%NC*QHL",
+          "inputs": {
+
+          },
+          "fields": {
+            "LIST": [
+              "Item.name",
+              "Lu?*1I:gla}Z^{v-h`Q`"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "bcErxuq*kB@$E,*[1%:]": {
+          "opcode": "data_deletealloflist",
+          "next": "n-jF:B!|PH25vUocF3Di",
+          "parent": "o}$=bZWKX=N}1ZN_exm;",
+          "inputs": {
+
+          },
+          "fields": {
+            "LIST": [
+              "Item.sellIn",
+              "eo!F=U;lWYkZiS={}%(u"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "n-jF:B!|PH25vUocF3Di": {
+          "opcode": "data_deletealloflist",
+          "next": "nN-N1^Z#}8v-EHxR,f7k",
+          "parent": "bcErxuq*kB@$E,*[1%:]",
+          "inputs": {
+
+          },
+          "fields": {
+            "LIST": [
+              "Item.quality",
+              "O*4g4jWG]3WY1J^GXb+|"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "nN-N1^Z#}8v-EHxR,f7k": {
+          "opcode": "procedures_call",
+          "next": "90{YK|cTmre%,l)(C_G4",
+          "parent": "n-jF:B!|PH25vUocF3Di",
+          "inputs": {
+            "e3V;=6|S.0VsX1s|a[~;": [
+              1,
+              [
+                10,
+                "+5 Dexterity Vest"
+              ]
+            ],
+            ",1Bk_6G2:0ep8}FHeLeI": [
+              1,
+              [
+                10,
+                "10"
+              ]
+            ],
+            ";w8tDQX8Bs%2K,nrJ3HX": [
+              1,
+              [
+                10,
+                "20"
+              ]
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false,
+          "mutation": {
+            "tagName": "mutation",
+            "children": [
+
+            ],
+            "proccode": "new Item name: %s sellIn: %s quality: %s",
+            "argumentids": "[\"e3V;=6|S.0VsX1s|a[~;\",\",1Bk_6G2:0ep8}FHeLeI\",\";w8tDQX8Bs%2K,nrJ3HX\"]",
+            "warp": "false"
+          }
+        },
+        "h}(~@ejvvBB;Z|;=fePl": {
+          "opcode": "procedures_call",
+          "next": "S4VrTRY$r!whzrvCfM\/*",
+          "parent": "90{YK|cTmre%,l)(C_G4",
+          "inputs": {
+            "e3V;=6|S.0VsX1s|a[~;": [
+              1,
+              [
+                10,
+                "Aged Brie"
+              ]
+            ],
+            ",1Bk_6G2:0ep8}FHeLeI": [
+              1,
+              [
+                10,
+                "2"
+              ]
+            ],
+            ";w8tDQX8Bs%2K,nrJ3HX": [
+              1,
+              [
+                10,
+                "0"
+              ]
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false,
+          "mutation": {
+            "tagName": "mutation",
+            "children": [
+
+            ],
+            "proccode": "new Item name: %s sellIn: %s quality: %s",
+            "argumentids": "[\"e3V;=6|S.0VsX1s|a[~;\",\",1Bk_6G2:0ep8}FHeLeI\",\";w8tDQX8Bs%2K,nrJ3HX\"]",
+            "warp": "false"
+          }
+        },
+        "eUO$iUZ?QSrJa{pX)C4-": {
+          "opcode": "procedures_call",
+          "next": "6t1i7F]$gIGV}FcZl_[~",
+          "parent": "S4VrTRY$r!whzrvCfM\/*",
+          "inputs": {
+            "e3V;=6|S.0VsX1s|a[~;": [
+              1,
+              [
+                10,
+                "Elixir of the Mongoose"
+              ]
+            ],
+            ",1Bk_6G2:0ep8}FHeLeI": [
+              1,
+              [
+                10,
+                "5"
+              ]
+            ],
+            ";w8tDQX8Bs%2K,nrJ3HX": [
+              1,
+              [
+                10,
+                "7"
+              ]
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false,
+          "mutation": {
+            "tagName": "mutation",
+            "children": [
+
+            ],
+            "proccode": "new Item name: %s sellIn: %s quality: %s",
+            "argumentids": "[\"e3V;=6|S.0VsX1s|a[~;\",\",1Bk_6G2:0ep8}FHeLeI\",\";w8tDQX8Bs%2K,nrJ3HX\"]",
+            "warp": "false"
+          }
+        },
+        "B7G?{UdsS;1.l8R@J4YC": {
+          "opcode": "procedures_call",
+          "next": "Ah%=U2q[+akbHoX|\/Qik",
+          "parent": "6t1i7F]$gIGV}FcZl_[~",
+          "inputs": {
+            "e3V;=6|S.0VsX1s|a[~;": [
+              1,
+              [
+                10,
+                "Sulfuras, Hand of Ragnaros"
+              ]
+            ],
+            ",1Bk_6G2:0ep8}FHeLeI": [
+              1,
+              [
+                10,
+                "0"
+              ]
+            ],
+            ";w8tDQX8Bs%2K,nrJ3HX": [
+              1,
+              [
+                10,
+                "80"
+              ]
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false,
+          "mutation": {
+            "tagName": "mutation",
+            "children": [
+
+            ],
+            "proccode": "new Item name: %s sellIn: %s quality: %s",
+            "argumentids": "[\"e3V;=6|S.0VsX1s|a[~;\",\",1Bk_6G2:0ep8}FHeLeI\",\";w8tDQX8Bs%2K,nrJ3HX\"]",
+            "warp": "false"
+          }
+        },
+        "Or@Im}[6n_BfKQt=}Qhe": {
+          "opcode": "procedures_call",
+          "next": "PRC:=?hk?%!aiJ~M^V[N",
+          "parent": "Ah%=U2q[+akbHoX|\/Qik",
+          "inputs": {
+            "e3V;=6|S.0VsX1s|a[~;": [
+              1,
+              [
+                10,
+                "Sulfuras, Hand of Ragnaros"
+              ]
+            ],
+            ",1Bk_6G2:0ep8}FHeLeI": [
+              1,
+              [
+                10,
+                "-1"
+              ]
+            ],
+            ";w8tDQX8Bs%2K,nrJ3HX": [
+              1,
+              [
+                10,
+                "80"
+              ]
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false,
+          "mutation": {
+            "tagName": "mutation",
+            "children": [
+
+            ],
+            "proccode": "new Item name: %s sellIn: %s quality: %s",
+            "argumentids": "[\"e3V;=6|S.0VsX1s|a[~;\",\",1Bk_6G2:0ep8}FHeLeI\",\";w8tDQX8Bs%2K,nrJ3HX\"]",
+            "warp": "false"
+          }
+        },
+        "$v]|;TSd8$IhD9M|^2!f": {
+          "opcode": "procedures_call",
+          "next": "nE)EE~3xl(Nqrg:WB^#T",
+          "parent": "PRC:=?hk?%!aiJ~M^V[N",
+          "inputs": {
+            "e3V;=6|S.0VsX1s|a[~;": [
+              1,
+              [
+                10,
+                "Backstage passes to a TAFKAL80ETC concert"
+              ]
+            ],
+            ",1Bk_6G2:0ep8}FHeLeI": [
+              1,
+              [
+                10,
+                "15"
+              ]
+            ],
+            ";w8tDQX8Bs%2K,nrJ3HX": [
+              1,
+              [
+                10,
+                "20"
+              ]
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false,
+          "mutation": {
+            "tagName": "mutation",
+            "children": [
+
+            ],
+            "proccode": "new Item name: %s sellIn: %s quality: %s",
+            "argumentids": "[\"e3V;=6|S.0VsX1s|a[~;\",\",1Bk_6G2:0ep8}FHeLeI\",\";w8tDQX8Bs%2K,nrJ3HX\"]",
+            "warp": "false"
+          }
+        },
+        "t?#T(spYtCL)((:nQ6Qv": {
+          "opcode": "procedures_call",
+          "next": "lXmPrl`S)z]jfF80?},)",
+          "parent": ";e;}Z@S_CKgneOI%f;D7",
+          "inputs": {
+            "e3V;=6|S.0VsX1s|a[~;": [
+              1,
+              [
+                10,
+                "Backstage passes to a TAFKAL80ETC concert"
+              ]
+            ],
+            ",1Bk_6G2:0ep8}FHeLeI": [
+              1,
+              [
+                10,
+                "5"
+              ]
+            ],
+            ";w8tDQX8Bs%2K,nrJ3HX": [
+              1,
+              [
+                10,
+                "49"
+              ]
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false,
+          "mutation": {
+            "tagName": "mutation",
+            "children": [
+
+            ],
+            "proccode": "new Item name: %s sellIn: %s quality: %s",
+            "argumentids": "[\"e3V;=6|S.0VsX1s|a[~;\",\",1Bk_6G2:0ep8}FHeLeI\",\";w8tDQX8Bs%2K,nrJ3HX\"]",
+            "warp": "false"
+          }
+        },
+        "iqdzFJvqM%#jQcM49aFI": {
+          "opcode": "procedures_call",
+          "next": ";e;}Z@S_CKgneOI%f;D7",
+          "parent": "nE)EE~3xl(Nqrg:WB^#T",
+          "inputs": {
+            "e3V;=6|S.0VsX1s|a[~;": [
+              1,
+              [
+                10,
+                "Backstage passes to a TAFKAL80ETC concert"
+              ]
+            ],
+            ",1Bk_6G2:0ep8}FHeLeI": [
+              1,
+              [
+                10,
+                "10"
+              ]
+            ],
+            ";w8tDQX8Bs%2K,nrJ3HX": [
+              1,
+              [
+                10,
+                "49"
+              ]
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false,
+          "mutation": {
+            "tagName": "mutation",
+            "children": [
+
+            ],
+            "proccode": "new Item name: %s sellIn: %s quality: %s",
+            "argumentids": "[\"e3V;=6|S.0VsX1s|a[~;\",\",1Bk_6G2:0ep8}FHeLeI\",\";w8tDQX8Bs%2K,nrJ3HX\"]",
+            "warp": "false"
+          }
+        },
+        "QJaKOlAtW+sS{Co[enrq": {
+          "opcode": "procedures_call",
+          "next": "A3[Z@W)DunF?0U@hF4$2",
+          "parent": "lXmPrl`S)z]jfF80?},)",
+          "inputs": {
+            "e3V;=6|S.0VsX1s|a[~;": [
+              1,
+              [
+                10,
+                "Conjured Mana Cake"
+              ]
+            ],
+            ",1Bk_6G2:0ep8}FHeLeI": [
+              1,
+              [
+                10,
+                "3"
+              ]
+            ],
+            ";w8tDQX8Bs%2K,nrJ3HX": [
+              1,
+              [
+                10,
+                "6"
+              ]
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false,
+          "mutation": {
+            "tagName": "mutation",
+            "children": [
+
+            ],
+            "proccode": "new Item name: %s sellIn: %s quality: %s",
+            "argumentids": "[\"e3V;=6|S.0VsX1s|a[~;\",\",1Bk_6G2:0ep8}FHeLeI\",\";w8tDQX8Bs%2K,nrJ3HX\"]",
+            "warp": "false"
+          }
+        },
+        "JQ8qxt.$H?*]=UeWlU8z": {
+          "opcode": "data_setvariableto",
+          "next": null,
+          "parent": "c1+:6[o{X!EZU_?#pz5r",
+          "inputs": {
+            "VALUE": [
+              3,
+              "~f:b8`~zFH~t6Hof~5x)",
+              [
+                10,
+                "0"
+              ]
+            ]
+          },
+          "fields": {
+            "VARIABLE": [
+              "new Item",
+              "C;]_eK(LJ[;-+~Y|M96`"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "~f:b8`~zFH~t6Hof~5x)": {
+          "opcode": "data_lengthoflist",
+          "next": null,
+          "parent": "JQ8qxt.$H?*]=UeWlU8z",
+          "inputs": {
+
+          },
+          "fields": {
+            "LIST": [
+              "Item.name",
+              "Lu?*1I:gla}Z^{v-h`Q`"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "90{YK|cTmre%,l)(C_G4": {
+          "opcode": "data_addtolist",
+          "next": "h}(~@ejvvBB;Z|;=fePl",
+          "parent": "nN-N1^Z#}8v-EHxR,f7k",
+          "inputs": {
+            "ITEM": [
+              3,
+              [
+                12,
+                "new Item",
+                "C;]_eK(LJ[;-+~Y|M96`"
+              ],
+              [
+                10,
+                "chose"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "items",
+              "RZ@mb}o\/cM@bWIe3g%y;"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "A3[Z@W)DunF?0U@hF4$2": {
+          "opcode": "data_addtolist",
+          "next": null,
+          "parent": "QJaKOlAtW+sS{Co[enrq",
+          "inputs": {
+            "ITEM": [
+              3,
+              [
+                12,
+                "new Item",
+                "C;]_eK(LJ[;-+~Y|M96`"
+              ],
+              [
+                10,
+                "chose"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "items",
+              "RZ@mb}o\/cM@bWIe3g%y;"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "S4VrTRY$r!whzrvCfM\/*": {
+          "opcode": "data_addtolist",
+          "next": "eUO$iUZ?QSrJa{pX)C4-",
+          "parent": "h}(~@ejvvBB;Z|;=fePl",
+          "inputs": {
+            "ITEM": [
+              3,
+              [
+                12,
+                "new Item",
+                "C;]_eK(LJ[;-+~Y|M96`"
+              ],
+              [
+                10,
+                "chose"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "items",
+              "RZ@mb}o\/cM@bWIe3g%y;"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "6t1i7F]$gIGV}FcZl_[~": {
+          "opcode": "data_addtolist",
+          "next": "B7G?{UdsS;1.l8R@J4YC",
+          "parent": "eUO$iUZ?QSrJa{pX)C4-",
+          "inputs": {
+            "ITEM": [
+              3,
+              [
+                12,
+                "new Item",
+                "C;]_eK(LJ[;-+~Y|M96`"
+              ],
+              [
+                10,
+                "chose"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "items",
+              "RZ@mb}o\/cM@bWIe3g%y;"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "Ah%=U2q[+akbHoX|\/Qik": {
+          "opcode": "data_addtolist",
+          "next": "Or@Im}[6n_BfKQt=}Qhe",
+          "parent": "B7G?{UdsS;1.l8R@J4YC",
+          "inputs": {
+            "ITEM": [
+              3,
+              [
+                12,
+                "new Item",
+                "C;]_eK(LJ[;-+~Y|M96`"
+              ],
+              [
+                10,
+                "chose"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "items",
+              "RZ@mb}o\/cM@bWIe3g%y;"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "PRC:=?hk?%!aiJ~M^V[N": {
+          "opcode": "data_addtolist",
+          "next": "$v]|;TSd8$IhD9M|^2!f",
+          "parent": "Or@Im}[6n_BfKQt=}Qhe",
+          "inputs": {
+            "ITEM": [
+              3,
+              [
+                12,
+                "new Item",
+                "C;]_eK(LJ[;-+~Y|M96`"
+              ],
+              [
+                10,
+                "chose"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "items",
+              "RZ@mb}o\/cM@bWIe3g%y;"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "nE)EE~3xl(Nqrg:WB^#T": {
+          "opcode": "data_addtolist",
+          "next": "iqdzFJvqM%#jQcM49aFI",
+          "parent": "$v]|;TSd8$IhD9M|^2!f",
+          "inputs": {
+            "ITEM": [
+              3,
+              [
+                12,
+                "new Item",
+                "C;]_eK(LJ[;-+~Y|M96`"
+              ],
+              [
+                10,
+                "chose"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "items",
+              "RZ@mb}o\/cM@bWIe3g%y;"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        ";e;}Z@S_CKgneOI%f;D7": {
+          "opcode": "data_addtolist",
+          "next": "t?#T(spYtCL)((:nQ6Qv",
+          "parent": "iqdzFJvqM%#jQcM49aFI",
+          "inputs": {
+            "ITEM": [
+              3,
+              [
+                12,
+                "new Item",
+                "C;]_eK(LJ[;-+~Y|M96`"
+              ],
+              [
+                10,
+                "chose"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "items",
+              "RZ@mb}o\/cM@bWIe3g%y;"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "lXmPrl`S)z]jfF80?},)": {
+          "opcode": "data_addtolist",
+          "next": "QJaKOlAtW+sS{Co[enrq",
+          "parent": "t?#T(spYtCL)((:nQ6Qv",
+          "inputs": {
+            "ITEM": [
+              3,
+              [
+                12,
+                "new Item",
+                "C;]_eK(LJ[;-+~Y|M96`"
+              ],
+              [
+                10,
+                "chose"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "items",
+              "RZ@mb}o\/cM@bWIe3g%y;"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "XT@R^;*v*xzf\/;AYx8Lb": {
+          "opcode": "event_whenkeypressed",
+          "next": "cyWjH|(tGa#}V:IIv}2T",
+          "parent": null,
+          "inputs": {
+
+          },
+          "fields": {
+            "KEY_OPTION": [
+              "space",
+              null
+            ]
+          },
+          "shadow": false,
+          "topLevel": true,
+          "x": 770,
+          "y": -1505
+        },
+        "A7t;WX]R]|2\/}[unYKX!": {
+          "opcode": "control_repeat",
+          "next": null,
+          "parent": "cyWjH|(tGa#}V:IIv}2T",
+          "inputs": {
+            "TIMES": [
+              3,
+              "vj2KBK@G`9nA@t4J]5@]",
+              [
+                6,
+                "10"
+              ]
+            ],
+            "SUBSTACK": [
+              2,
+              "rbZj\/wx?E3s%fjc*PX1L"
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "vj2KBK@G`9nA@t4J]5@]": {
+          "opcode": "data_lengthoflist",
+          "next": null,
+          "parent": "A7t;WX]R]|2\/}[unYKX!",
+          "inputs": {
+
+          },
+          "fields": {
+            "LIST": [
+              "items",
+              "RZ@mb}o\/cM@bWIe3g%y;"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "cyWjH|(tGa#}V:IIv}2T": {
+          "opcode": "data_setvariableto",
+          "next": "A7t;WX]R]|2\/}[unYKX!",
+          "parent": "XT@R^;*v*xzf\/;AYx8Lb",
+          "inputs": {
+            "VALUE": [
+              1,
+              [
+                10,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+            "VARIABLE": [
+              "i",
+              "3!@8BH[HU|Q6viSe!--0"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "h`X.EgZsZS]G@^|3HKb)": {
+          "opcode": "data_changevariableby",
+          "next": null,
+          "parent": "g,ZJ,l~xgmJ:82EWDxb?",
+          "inputs": {
+            "VALUE": [
+              1,
+              [
+                4,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+            "VARIABLE": [
+              "i",
+              "3!@8BH[HU|Q6viSe!--0"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "rbZj\/wx?E3s%fjc*PX1L": {
+          "opcode": "control_if_else",
+          "next": "uL\/kb[0#J@6ji`(pZD?M",
+          "parent": "A7t;WX]R]|2\/}[unYKX!",
+          "inputs": {
+            "SUBSTACK": [
+              2,
+              "Py9)XUJ,@TbJQ((bh36`"
+            ],
+            "SUBSTACK2": [
+              2,
+              ")Bq?YsquU4N7Y#\/vl_`w"
+            ],
+            "CONDITION": [
+              2,
+              "O\/o.29lNsG,hgrMdKg2g"
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "Py9)XUJ,@TbJQ((bh36`": {
+          "opcode": "control_if",
+          "next": null,
+          "parent": "rbZj\/wx?E3s%fjc*PX1L",
+          "inputs": {
+            "SUBSTACK": [
+              2,
+              "UA71|Ptrf]:eS=K3dzJa"
+            ],
+            "CONDITION": [
+              2,
+              "r.s`s)Qo^XVcv9_^eK9-"
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "UA71|Ptrf]:eS=K3dzJa": {
+          "opcode": "control_if",
+          "next": null,
+          "parent": "Py9)XUJ,@TbJQ((bh36`",
+          "inputs": {
+            "CONDITION": [
+              2,
+              "Pil,Z^ASB9kcV.S3Sl-r"
+            ],
+            "SUBSTACK": [
+              2,
+              "}et=ZaSW5Gi!K(7|B;5M"
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        ")Bq?YsquU4N7Y#\/vl_`w": {
+          "opcode": "control_if",
+          "next": null,
+          "parent": "rbZj\/wx?E3s%fjc*PX1L",
+          "inputs": {
+            "SUBSTACK": [
+              2,
+              "imkG6~Ym0kA8qvl?)k`M"
+            ],
+            "CONDITION": [
+              2,
+              "iH8,(pm-Wewx7it#z~5s"
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        ")Z^$Y}h`sC^vd_9r|j^5": {
+          "opcode": "control_if",
+          "next": null,
+          "parent": "imkG6~Ym0kA8qvl?)k`M",
+          "inputs": {
+            "SUBSTACK": [
+              2,
+              "J\/~v!Y#eZh[@o!hU|1$)"
+            ],
+            "CONDITION": [
+              2,
+              "~rw)2MQjKj+d8oEpH16q"
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "J\/~v!Y#eZh[@o!hU|1$)": {
+          "opcode": "control_if",
+          "next": "kNZU(d,2tn^*lL6nnkKd",
+          "parent": ")Z^$Y}h`sC^vd_9r|j^5",
+          "inputs": {
+            "SUBSTACK": [
+              2,
+              "CA@4]AMPha:lxaI?wZN8"
+            ],
+            "CONDITION": [
+              2,
+              "4b7E#v[=7^%1V%PE~CWG"
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "CA@4]AMPha:lxaI?wZN8": {
+          "opcode": "control_if",
+          "next": null,
+          "parent": "J\/~v!Y#eZh[@o!hU|1$)",
+          "inputs": {
+            "CONDITION": [
+              2,
+              "Li2TWOTLc#8c]Csp*%0B"
+            ],
+            "SUBSTACK": [
+              2,
+              "6p{Sa,I!j827Hv[1e%A."
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "kNZU(d,2tn^*lL6nnkKd": {
+          "opcode": "control_if",
+          "next": null,
+          "parent": "J\/~v!Y#eZh[@o!hU|1$)",
+          "inputs": {
+            "SUBSTACK": [
+              2,
+              "s?V82eMxs`vKQq*W+GHm"
+            ],
+            "CONDITION": [
+              2,
+              "n|Ba3HL~`t#W;\/H~keD="
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "s?V82eMxs`vKQq*W+GHm": {
+          "opcode": "control_if",
+          "next": null,
+          "parent": "kNZU(d,2tn^*lL6nnkKd",
+          "inputs": {
+            "CONDITION": [
+              2,
+              "3:[oRIpdtV5A_Jn8p.3["
+            ],
+            "SUBSTACK": [
+              2,
+              "sZQsB_xG[nTQ@fD`q=v}"
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "_3[~#TC`viY^(o(C`cKk": {
+          "opcode": "operator_not",
+          "next": null,
+          "parent": "O\/o.29lNsG,hgrMdKg2g",
+          "inputs": {
+            "OPERAND": [
+              2,
+              ",q#o~O|MaWTo+OarUIc?"
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "O\/o.29lNsG,hgrMdKg2g": {
+          "opcode": "operator_and",
+          "next": null,
+          "parent": "rbZj\/wx?E3s%fjc*PX1L",
+          "inputs": {
+            "OPERAND1": [
+              2,
+              "_3[~#TC`viY^(o(C`cKk"
+            ],
+            "OPERAND2": [
+              2,
+              "~@OquM;t.d8O]4]Uk?ns"
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "~@OquM;t.d8O]4]Uk?ns": {
+          "opcode": "operator_not",
+          "next": null,
+          "parent": "O\/o.29lNsG,hgrMdKg2g",
+          "inputs": {
+            "OPERAND": [
+              2,
+              "*C|AwhK?$VXu59kK#yNl"
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        ",q#o~O|MaWTo+OarUIc?": {
+          "opcode": "operator_equals",
+          "next": null,
+          "parent": "_3[~#TC`viY^(o(C`cKk",
+          "inputs": {
+            "OPERAND1": [
+              3,
+              "udG\/a?Wi350zJmP-We},",
+              [
+                10,
+                ""
+              ]
+            ],
+            "OPERAND2": [
+              1,
+              [
+                10,
+                "Aged Brie"
+              ]
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "udG\/a?Wi350zJmP-We},": {
+          "opcode": "data_itemoflist",
+          "next": null,
+          "parent": ",q#o~O|MaWTo+OarUIc?",
+          "inputs": {
+            "INDEX": [
+              3,
+              [
+                12,
+                "i",
+                "3!@8BH[HU|Q6viSe!--0"
+              ],
+              [
+                7,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "Item.name",
+              "Lu?*1I:gla}Z^{v-h`Q`"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "*C|AwhK?$VXu59kK#yNl": {
+          "opcode": "operator_equals",
+          "next": null,
+          "parent": "~@OquM;t.d8O]4]Uk?ns",
+          "inputs": {
+            "OPERAND1": [
+              3,
+              "NB)Kj.7TU}|%?l7g:ocQ",
+              [
+                10,
+                ""
+              ]
+            ],
+            "OPERAND2": [
+              1,
+              [
+                10,
+                "Backstage passes to a TAFKAL80ETC concert"
+              ]
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "NB)Kj.7TU}|%?l7g:ocQ": {
+          "opcode": "data_itemoflist",
+          "next": null,
+          "parent": "*C|AwhK?$VXu59kK#yNl",
+          "inputs": {
+            "INDEX": [
+              3,
+              [
+                12,
+                "i",
+                "3!@8BH[HU|Q6viSe!--0"
+              ],
+              [
+                7,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "Item.name",
+              "Lu?*1I:gla}Z^{v-h`Q`"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "r.s`s)Qo^XVcv9_^eK9-": {
+          "opcode": "operator_gt",
+          "next": null,
+          "parent": "Py9)XUJ,@TbJQ((bh36`",
+          "inputs": {
+            "OPERAND1": [
+              3,
+              "gl-tzon}pF29+W5Nzd2%",
+              [
+                10,
+                ""
+              ]
+            ],
+            "OPERAND2": [
+              1,
+              [
+                10,
+                "0"
+              ]
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "gl-tzon}pF29+W5Nzd2%": {
+          "opcode": "data_itemoflist",
+          "next": null,
+          "parent": "r.s`s)Qo^XVcv9_^eK9-",
+          "inputs": {
+            "INDEX": [
+              3,
+              [
+                12,
+                "i",
+                "3!@8BH[HU|Q6viSe!--0"
+              ],
+              [
+                7,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "Item.quality",
+              "O*4g4jWG]3WY1J^GXb+|"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "Pil,Z^ASB9kcV.S3Sl-r": {
+          "opcode": "operator_not",
+          "next": null,
+          "parent": "UA71|Ptrf]:eS=K3dzJa",
+          "inputs": {
+            "OPERAND": [
+              2,
+              "o6tg7}B|1owcjr\/_Zy]y"
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "o6tg7}B|1owcjr\/_Zy]y": {
+          "opcode": "operator_equals",
+          "next": null,
+          "parent": "Pil,Z^ASB9kcV.S3Sl-r",
+          "inputs": {
+            "OPERAND1": [
+              3,
+              "8|k.9^G%w-X$Vi7.qhRW",
+              [
+                10,
+                ""
+              ]
+            ],
+            "OPERAND2": [
+              1,
+              [
+                10,
+                "Sulfuras, Hand of Ragnaros"
+              ]
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "8|k.9^G%w-X$Vi7.qhRW": {
+          "opcode": "data_itemoflist",
+          "next": null,
+          "parent": "o6tg7}B|1owcjr\/_Zy]y",
+          "inputs": {
+            "INDEX": [
+              3,
+              [
+                12,
+                "i",
+                "3!@8BH[HU|Q6viSe!--0"
+              ],
+              [
+                7,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "Item.name",
+              "Lu?*1I:gla}Z^{v-h`Q`"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "}et=ZaSW5Gi!K(7|B;5M": {
+          "opcode": "data_replaceitemoflist",
+          "next": null,
+          "parent": "UA71|Ptrf]:eS=K3dzJa",
+          "inputs": {
+            "INDEX": [
+              3,
+              [
+                12,
+                "i",
+                "3!@8BH[HU|Q6viSe!--0"
+              ],
+              [
+                7,
+                "1"
+              ]
+            ],
+            "ITEM": [
+              3,
+              "X;@;]NdcYZP]ry9M}f-G",
+              [
+                10,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "Item.quality",
+              "O*4g4jWG]3WY1J^GXb+|"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "ikUP.RCI$9g10u-LahNJ": {
+          "opcode": "data_itemoflist",
+          "next": null,
+          "parent": "X;@;]NdcYZP]ry9M}f-G",
+          "inputs": {
+            "INDEX": [
+              3,
+              [
+                12,
+                "i",
+                "3!@8BH[HU|Q6viSe!--0"
+              ],
+              [
+                7,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "Item.quality",
+              "O*4g4jWG]3WY1J^GXb+|"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "X;@;]NdcYZP]ry9M}f-G": {
+          "opcode": "operator_subtract",
+          "next": null,
+          "parent": "}et=ZaSW5Gi!K(7|B;5M",
+          "inputs": {
+            "NUM1": [
+              3,
+              "ikUP.RCI$9g10u-LahNJ",
+              [
+                4,
+                ""
+              ]
+            ],
+            "NUM2": [
+              1,
+              [
+                4,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "iH8,(pm-Wewx7it#z~5s": {
+          "opcode": "operator_lt",
+          "next": null,
+          "parent": ")Bq?YsquU4N7Y#\/vl_`w",
+          "inputs": {
+            "OPERAND1": [
+              3,
+              "H\/voZt]N,Y3P65l%j$7I",
+              [
+                10,
+                ""
+              ]
+            ],
+            "OPERAND2": [
+              1,
+              [
+                10,
+                "50"
+              ]
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "H\/voZt]N,Y3P65l%j$7I": {
+          "opcode": "data_itemoflist",
+          "next": null,
+          "parent": "iH8,(pm-Wewx7it#z~5s",
+          "inputs": {
+            "INDEX": [
+              3,
+              [
+                12,
+                "i",
+                "3!@8BH[HU|Q6viSe!--0"
+              ],
+              [
+                7,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "Item.quality",
+              "O*4g4jWG]3WY1J^GXb+|"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "imkG6~Ym0kA8qvl?)k`M": {
+          "opcode": "data_replaceitemoflist",
+          "next": ")Z^$Y}h`sC^vd_9r|j^5",
+          "parent": ")Bq?YsquU4N7Y#\/vl_`w",
+          "inputs": {
+            "INDEX": [
+              3,
+              [
+                12,
+                "i",
+                "3!@8BH[HU|Q6viSe!--0"
+              ],
+              [
+                7,
+                "1"
+              ]
+            ],
+            "ITEM": [
+              3,
+              "2xy$royiKojOCOiknZ-1",
+              [
+                10,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "Item.quality",
+              "O*4g4jWG]3WY1J^GXb+|"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "g^h6b:cV=;0OUUrvw~K+": {
+          "opcode": "data_itemoflist",
+          "next": null,
+          "parent": "2xy$royiKojOCOiknZ-1",
+          "inputs": {
+            "INDEX": [
+              3,
+              [
+                12,
+                "i",
+                "3!@8BH[HU|Q6viSe!--0"
+              ],
+              [
+                7,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "Item.quality",
+              "O*4g4jWG]3WY1J^GXb+|"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "2xy$royiKojOCOiknZ-1": {
+          "opcode": "operator_add",
+          "next": null,
+          "parent": "imkG6~Ym0kA8qvl?)k`M",
+          "inputs": {
+            "NUM1": [
+              3,
+              "g^h6b:cV=;0OUUrvw~K+",
+              [
+                4,
+                ""
+              ]
+            ],
+            "NUM2": [
+              1,
+              [
+                4,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "~rw)2MQjKj+d8oEpH16q": {
+          "opcode": "operator_equals",
+          "next": null,
+          "parent": ")Z^$Y}h`sC^vd_9r|j^5",
+          "inputs": {
+            "OPERAND1": [
+              3,
+              "W-J+mygabdVCI|OF)KFA",
+              [
+                10,
+                ""
+              ]
+            ],
+            "OPERAND2": [
+              1,
+              [
+                10,
+                "Backstage passes to a TAFKAL80ETC concert"
+              ]
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "W-J+mygabdVCI|OF)KFA": {
+          "opcode": "data_itemoflist",
+          "next": null,
+          "parent": "~rw)2MQjKj+d8oEpH16q",
+          "inputs": {
+            "INDEX": [
+              3,
+              [
+                12,
+                "i",
+                "3!@8BH[HU|Q6viSe!--0"
+              ],
+              [
+                7,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "Item.name",
+              "Lu?*1I:gla}Z^{v-h`Q`"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "4b7E#v[=7^%1V%PE~CWG": {
+          "opcode": "operator_lt",
+          "next": null,
+          "parent": "J\/~v!Y#eZh[@o!hU|1$)",
+          "inputs": {
+            "OPERAND1": [
+              3,
+              "z1QHJFNP,A?aB9n$;T#g",
+              [
+                10,
+                ""
+              ]
+            ],
+            "OPERAND2": [
+              1,
+              [
+                10,
+                "11"
+              ]
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "z1QHJFNP,A?aB9n$;T#g": {
+          "opcode": "data_itemoflist",
+          "next": null,
+          "parent": "4b7E#v[=7^%1V%PE~CWG",
+          "inputs": {
+            "INDEX": [
+              3,
+              [
+                12,
+                "i",
+                "3!@8BH[HU|Q6viSe!--0"
+              ],
+              [
+                7,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "Item.sellIn",
+              "eo!F=U;lWYkZiS={}%(u"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "Li2TWOTLc#8c]Csp*%0B": {
+          "opcode": "operator_lt",
+          "next": null,
+          "parent": "CA@4]AMPha:lxaI?wZN8",
+          "inputs": {
+            "OPERAND1": [
+              3,
+              "Jq~6~{O5!^J?m(6iTHmD",
+              [
+                10,
+                ""
+              ]
+            ],
+            "OPERAND2": [
+              1,
+              [
+                10,
+                "50"
+              ]
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "Jq~6~{O5!^J?m(6iTHmD": {
+          "opcode": "data_itemoflist",
+          "next": null,
+          "parent": "Li2TWOTLc#8c]Csp*%0B",
+          "inputs": {
+            "INDEX": [
+              3,
+              [
+                12,
+                "i",
+                "3!@8BH[HU|Q6viSe!--0"
+              ],
+              [
+                7,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "Item.quality",
+              "O*4g4jWG]3WY1J^GXb+|"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "6p{Sa,I!j827Hv[1e%A.": {
+          "opcode": "data_replaceitemoflist",
+          "next": null,
+          "parent": "CA@4]AMPha:lxaI?wZN8",
+          "inputs": {
+            "INDEX": [
+              3,
+              [
+                12,
+                "i",
+                "3!@8BH[HU|Q6viSe!--0"
+              ],
+              [
+                7,
+                "1"
+              ]
+            ],
+            "ITEM": [
+              3,
+              "KVeDeIT(9!dyVy7_2:SJ",
+              [
+                10,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "Item.quality",
+              "O*4g4jWG]3WY1J^GXb+|"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "KVeDeIT(9!dyVy7_2:SJ": {
+          "opcode": "operator_add",
+          "next": null,
+          "parent": "6p{Sa,I!j827Hv[1e%A.",
+          "inputs": {
+            "NUM1": [
+              3,
+              "K1eg{-_?^nU`Q9Azb;*Y",
+              [
+                4,
+                ""
+              ]
+            ],
+            "NUM2": [
+              1,
+              [
+                4,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "K1eg{-_?^nU`Q9Azb;*Y": {
+          "opcode": "data_itemoflist",
+          "next": null,
+          "parent": "KVeDeIT(9!dyVy7_2:SJ",
+          "inputs": {
+            "INDEX": [
+              3,
+              [
+                12,
+                "i",
+                "3!@8BH[HU|Q6viSe!--0"
+              ],
+              [
+                7,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "Item.quality",
+              "O*4g4jWG]3WY1J^GXb+|"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "n|Ba3HL~`t#W;\/H~keD=": {
+          "opcode": "operator_lt",
+          "next": null,
+          "parent": "kNZU(d,2tn^*lL6nnkKd",
+          "inputs": {
+            "OPERAND1": [
+              3,
+              "N^1DuLNieFr1qOrn8])?",
+              [
+                10,
+                ""
+              ]
+            ],
+            "OPERAND2": [
+              1,
+              [
+                10,
+                "6"
+              ]
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "N^1DuLNieFr1qOrn8])?": {
+          "opcode": "data_itemoflist",
+          "next": null,
+          "parent": "n|Ba3HL~`t#W;\/H~keD=",
+          "inputs": {
+            "INDEX": [
+              3,
+              [
+                12,
+                "i",
+                "3!@8BH[HU|Q6viSe!--0"
+              ],
+              [
+                7,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "Item.sellIn",
+              "eo!F=U;lWYkZiS={}%(u"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "3:[oRIpdtV5A_Jn8p.3[": {
+          "opcode": "operator_lt",
+          "next": null,
+          "parent": "s?V82eMxs`vKQq*W+GHm",
+          "inputs": {
+            "OPERAND1": [
+              3,
+              "=ose.Ny5dfr_zGH,sA;$",
+              [
+                10,
+                ""
+              ]
+            ],
+            "OPERAND2": [
+              1,
+              [
+                10,
+                "50"
+              ]
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "=ose.Ny5dfr_zGH,sA;$": {
+          "opcode": "data_itemoflist",
+          "next": null,
+          "parent": "3:[oRIpdtV5A_Jn8p.3[",
+          "inputs": {
+            "INDEX": [
+              3,
+              [
+                12,
+                "i",
+                "3!@8BH[HU|Q6viSe!--0"
+              ],
+              [
+                7,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "Item.quality",
+              "O*4g4jWG]3WY1J^GXb+|"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "sZQsB_xG[nTQ@fD`q=v}": {
+          "opcode": "data_replaceitemoflist",
+          "next": null,
+          "parent": "s?V82eMxs`vKQq*W+GHm",
+          "inputs": {
+            "INDEX": [
+              3,
+              [
+                12,
+                "i",
+                "3!@8BH[HU|Q6viSe!--0"
+              ],
+              [
+                7,
+                "1"
+              ]
+            ],
+            "ITEM": [
+              3,
+              "[[$dhz1jbymB2[Ckkpj1",
+              [
+                10,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "Item.quality",
+              "O*4g4jWG]3WY1J^GXb+|"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "[[$dhz1jbymB2[Ckkpj1": {
+          "opcode": "operator_add",
+          "next": null,
+          "parent": "sZQsB_xG[nTQ@fD`q=v}",
+          "inputs": {
+            "NUM1": [
+              3,
+              "e=Y75w4d03$zH\/V4SHPW",
+              [
+                4,
+                ""
+              ]
+            ],
+            "NUM2": [
+              1,
+              [
+                4,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "e=Y75w4d03$zH\/V4SHPW": {
+          "opcode": "data_itemoflist",
+          "next": null,
+          "parent": "[[$dhz1jbymB2[Ckkpj1",
+          "inputs": {
+            "INDEX": [
+              3,
+              [
+                12,
+                "i",
+                "3!@8BH[HU|Q6viSe!--0"
+              ],
+              [
+                7,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "Item.quality",
+              "O*4g4jWG]3WY1J^GXb+|"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "@J#MxBo1(m4o3NcYAnO#": {
+          "opcode": "operator_not",
+          "next": null,
+          "parent": "uL\/kb[0#J@6ji`(pZD?M",
+          "inputs": {
+            "OPERAND": [
+              2,
+              "fpbvf8HE`$Lo{EwQbcfP"
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "fpbvf8HE`$Lo{EwQbcfP": {
+          "opcode": "operator_equals",
+          "next": null,
+          "parent": "@J#MxBo1(m4o3NcYAnO#",
+          "inputs": {
+            "OPERAND1": [
+              3,
+              "(i;(cjlP+c8apVnMd6.!",
+              [
+                10,
+                ""
+              ]
+            ],
+            "OPERAND2": [
+              1,
+              [
+                10,
+                "Sulfuras, Hand of Ragnaros"
+              ]
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "(i;(cjlP+c8apVnMd6.!": {
+          "opcode": "data_itemoflist",
+          "next": null,
+          "parent": "fpbvf8HE`$Lo{EwQbcfP",
+          "inputs": {
+            "INDEX": [
+              3,
+              [
+                12,
+                "i",
+                "3!@8BH[HU|Q6viSe!--0"
+              ],
+              [
+                7,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "Item.name",
+              "Lu?*1I:gla}Z^{v-h`Q`"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "uL\/kb[0#J@6ji`(pZD?M": {
+          "opcode": "control_if",
+          "next": "g,ZJ,l~xgmJ:82EWDxb?",
+          "parent": "rbZj\/wx?E3s%fjc*PX1L",
+          "inputs": {
+            "SUBSTACK": [
+              2,
+              "hiAc#s[t2l-U#ha3xsP#"
+            ],
+            "CONDITION": [
+              2,
+              "@J#MxBo1(m4o3NcYAnO#"
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "hiAc#s[t2l-U#ha3xsP#": {
+          "opcode": "data_replaceitemoflist",
+          "next": null,
+          "parent": "uL\/kb[0#J@6ji`(pZD?M",
+          "inputs": {
+            "INDEX": [
+              3,
+              [
+                12,
+                "i",
+                "3!@8BH[HU|Q6viSe!--0"
+              ],
+              [
+                7,
+                "1"
+              ]
+            ],
+            "ITEM": [
+              3,
+              ".OV!9}Cx?PG63_|LCLNZ",
+              [
+                10,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "Item.sellIn",
+              "eo!F=U;lWYkZiS={}%(u"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "8gsvj$G{[v|:jX4FDRW1": {
+          "opcode": "data_itemoflist",
+          "next": null,
+          "parent": ".OV!9}Cx?PG63_|LCLNZ",
+          "inputs": {
+            "INDEX": [
+              3,
+              [
+                12,
+                "i",
+                "3!@8BH[HU|Q6viSe!--0"
+              ],
+              [
+                7,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "Item.sellIn",
+              "eo!F=U;lWYkZiS={}%(u"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        ".OV!9}Cx?PG63_|LCLNZ": {
+          "opcode": "operator_subtract",
+          "next": null,
+          "parent": "hiAc#s[t2l-U#ha3xsP#",
+          "inputs": {
+            "NUM1": [
+              3,
+              "8gsvj$G{[v|:jX4FDRW1",
+              [
+                4,
+                ""
+              ]
+            ],
+            "NUM2": [
+              1,
+              [
+                4,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "g,ZJ,l~xgmJ:82EWDxb?": {
+          "opcode": "control_if",
+          "next": "h`X.EgZsZS]G@^|3HKb)",
+          "parent": "uL\/kb[0#J@6ji`(pZD?M",
+          "inputs": {
+            "SUBSTACK": [
+              2,
+              "N.5d}~4uqf}A|-zzURuh"
+            ],
+            "CONDITION": [
+              2,
+              "kPB!!2o0+D$:AY|1KF(@"
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "N.5d}~4uqf}A|-zzURuh": {
+          "opcode": "control_if_else",
+          "next": null,
+          "parent": "g,ZJ,l~xgmJ:82EWDxb?",
+          "inputs": {
+            "SUBSTACK": [
+              2,
+              "}.MivNcpO2h@$L+Rdzp%"
+            ],
+            "SUBSTACK2": [
+              2,
+              "v_!,mjtJ9@C4U=34?cjz"
+            ],
+            "CONDITION": [
+              2,
+              "7U{2^LDFwit?Wv\/oG,h5"
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "}.MivNcpO2h@$L+Rdzp%": {
+          "opcode": "control_if_else",
+          "next": null,
+          "parent": "N.5d}~4uqf}A|-zzURuh",
+          "inputs": {
+            "SUBSTACK": [
+              2,
+              "^GvGV^-Rj$vO!XilBT1S"
+            ],
+            "CONDITION": [
+              2,
+              "}vY@21I565idlC`0V~Ka"
+            ],
+            "SUBSTACK2": [
+              2,
+              "UV.U+hW6b.Raf9VAT}x~"
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "^GvGV^-Rj$vO!XilBT1S": {
+          "opcode": "control_if",
+          "next": null,
+          "parent": "}.MivNcpO2h@$L+Rdzp%",
+          "inputs": {
+            "SUBSTACK": [
+              2,
+              "KP|AbNX@#_LMo7ZzX8t6"
+            ],
+            "CONDITION": [
+              2,
+              "YU_Wzi5q)l@XWIpsih1E"
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "KP|AbNX@#_LMo7ZzX8t6": {
+          "opcode": "control_if",
+          "next": null,
+          "parent": "^GvGV^-Rj$vO!XilBT1S",
+          "inputs": {
+            "CONDITION": [
+              2,
+              "hf{S9(dLQqdT|\/D}Mq(;"
+            ],
+            "SUBSTACK": [
+              2,
+              "ixK$`xr[t0.hZ4AE`@V\/"
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "v_!,mjtJ9@C4U=34?cjz": {
+          "opcode": "control_if",
+          "next": null,
+          "parent": "N.5d}~4uqf}A|-zzURuh",
+          "inputs": {
+            "CONDITION": [
+              2,
+              "1C)={FA},O_;fgWj7d[4"
+            ],
+            "SUBSTACK": [
+              2,
+              "{c~]WLfGKJHfnuzu3)t0"
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "7U{2^LDFwit?Wv\/oG,h5": {
+          "opcode": "operator_not",
+          "next": null,
+          "parent": "N.5d}~4uqf}A|-zzURuh",
+          "inputs": {
+            "OPERAND": [
+              2,
+              "w9qS.M`1V!F!mTYW\/m0h"
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "w9qS.M`1V!F!mTYW\/m0h": {
+          "opcode": "operator_equals",
+          "next": null,
+          "parent": "7U{2^LDFwit?Wv\/oG,h5",
+          "inputs": {
+            "OPERAND1": [
+              3,
+              "D?\/@5B;#sg~Qga`{eqe1",
+              [
+                10,
+                ""
+              ]
+            ],
+            "OPERAND2": [
+              1,
+              [
+                10,
+                "Aged Brie"
+              ]
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "D?\/@5B;#sg~Qga`{eqe1": {
+          "opcode": "data_itemoflist",
+          "next": null,
+          "parent": "w9qS.M`1V!F!mTYW\/m0h",
+          "inputs": {
+            "INDEX": [
+              3,
+              [
+                12,
+                "i",
+                "3!@8BH[HU|Q6viSe!--0"
+              ],
+              [
+                7,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "Item.name",
+              "Lu?*1I:gla}Z^{v-h`Q`"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "}vY@21I565idlC`0V~Ka": {
+          "opcode": "operator_not",
+          "next": null,
+          "parent": "}.MivNcpO2h@$L+Rdzp%",
+          "inputs": {
+            "OPERAND": [
+              2,
+              "mh,c!o\/~9fG7X_:^U\/$V"
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "mh,c!o\/~9fG7X_:^U\/$V": {
+          "opcode": "operator_equals",
+          "next": null,
+          "parent": "}vY@21I565idlC`0V~Ka",
+          "inputs": {
+            "OPERAND1": [
+              3,
+              "#N?kCvsd:gJ4NewJD_Z1",
+              [
+                10,
+                ""
+              ]
+            ],
+            "OPERAND2": [
+              1,
+              [
+                10,
+                "Backstage passes to a TAFKAL80ETC concert"
+              ]
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "#N?kCvsd:gJ4NewJD_Z1": {
+          "opcode": "data_itemoflist",
+          "next": null,
+          "parent": "mh,c!o\/~9fG7X_:^U\/$V",
+          "inputs": {
+            "INDEX": [
+              3,
+              [
+                12,
+                "i",
+                "3!@8BH[HU|Q6viSe!--0"
+              ],
+              [
+                7,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "Item.name",
+              "Lu?*1I:gla}Z^{v-h`Q`"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "YU_Wzi5q)l@XWIpsih1E": {
+          "opcode": "operator_gt",
+          "next": null,
+          "parent": "^GvGV^-Rj$vO!XilBT1S",
+          "inputs": {
+            "OPERAND1": [
+              3,
+              "CLEqel+.{$qUH@$LC0E@",
+              [
+                10,
+                ""
+              ]
+            ],
+            "OPERAND2": [
+              1,
+              [
+                10,
+                "0"
+              ]
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "CLEqel+.{$qUH@$LC0E@": {
+          "opcode": "data_itemoflist",
+          "next": null,
+          "parent": "YU_Wzi5q)l@XWIpsih1E",
+          "inputs": {
+            "INDEX": [
+              3,
+              [
+                12,
+                "i",
+                "3!@8BH[HU|Q6viSe!--0"
+              ],
+              [
+                7,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "Item.quality",
+              "O*4g4jWG]3WY1J^GXb+|"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "hf{S9(dLQqdT|\/D}Mq(;": {
+          "opcode": "operator_not",
+          "next": null,
+          "parent": "KP|AbNX@#_LMo7ZzX8t6",
+          "inputs": {
+            "OPERAND": [
+              2,
+              "g*E}3qm~j7.pv69i-C5h"
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "g*E}3qm~j7.pv69i-C5h": {
+          "opcode": "operator_equals",
+          "next": null,
+          "parent": "hf{S9(dLQqdT|\/D}Mq(;",
+          "inputs": {
+            "OPERAND1": [
+              3,
+              "Ig9QPTq!ugb#7fyb{wFy",
+              [
+                10,
+                ""
+              ]
+            ],
+            "OPERAND2": [
+              1,
+              [
+                10,
+                "Sulfuras, Hand of Ragnaros"
+              ]
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "Ig9QPTq!ugb#7fyb{wFy": {
+          "opcode": "data_itemoflist",
+          "next": null,
+          "parent": "g*E}3qm~j7.pv69i-C5h",
+          "inputs": {
+            "INDEX": [
+              3,
+              [
+                12,
+                "i",
+                "3!@8BH[HU|Q6viSe!--0"
+              ],
+              [
+                7,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "Item.name",
+              "Lu?*1I:gla}Z^{v-h`Q`"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "kPB!!2o0+D$:AY|1KF(@": {
+          "opcode": "operator_lt",
+          "next": null,
+          "parent": "g,ZJ,l~xgmJ:82EWDxb?",
+          "inputs": {
+            "OPERAND1": [
+              3,
+              "t(z$k3Uup7X6vmLTNTqb",
+              [
+                10,
+                ""
+              ]
+            ],
+            "OPERAND2": [
+              1,
+              [
+                10,
+                "0"
+              ]
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "t(z$k3Uup7X6vmLTNTqb": {
+          "opcode": "data_itemoflist",
+          "next": null,
+          "parent": "kPB!!2o0+D$:AY|1KF(@",
+          "inputs": {
+            "INDEX": [
+              3,
+              [
+                12,
+                "i",
+                "3!@8BH[HU|Q6viSe!--0"
+              ],
+              [
+                7,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "Item.sellIn",
+              "eo!F=U;lWYkZiS={}%(u"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "ixK$`xr[t0.hZ4AE`@V\/": {
+          "opcode": "data_replaceitemoflist",
+          "next": null,
+          "parent": "KP|AbNX@#_LMo7ZzX8t6",
+          "inputs": {
+            "INDEX": [
+              3,
+              [
+                12,
+                "i",
+                "3!@8BH[HU|Q6viSe!--0"
+              ],
+              [
+                7,
+                "1"
+              ]
+            ],
+            "ITEM": [
+              3,
+              "oGv^vPH|kRu8PmeaU+FX",
+              [
+                10,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "Item.quality",
+              "O*4g4jWG]3WY1J^GXb+|"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "oGv^vPH|kRu8PmeaU+FX": {
+          "opcode": "operator_subtract",
+          "next": null,
+          "parent": "ixK$`xr[t0.hZ4AE`@V\/",
+          "inputs": {
+            "NUM1": [
+              3,
+              "L4e=nEx8jT(H3AUp,~[7",
+              [
+                4,
+                ""
+              ]
+            ],
+            "NUM2": [
+              1,
+              [
+                4,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "L4e=nEx8jT(H3AUp,~[7": {
+          "opcode": "data_itemoflist",
+          "next": null,
+          "parent": "oGv^vPH|kRu8PmeaU+FX",
+          "inputs": {
+            "INDEX": [
+              3,
+              [
+                12,
+                "i",
+                "3!@8BH[HU|Q6viSe!--0"
+              ],
+              [
+                7,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "Item.quality",
+              "O*4g4jWG]3WY1J^GXb+|"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "UV.U+hW6b.Raf9VAT}x~": {
+          "opcode": "data_replaceitemoflist",
+          "next": null,
+          "parent": "}.MivNcpO2h@$L+Rdzp%",
+          "inputs": {
+            "INDEX": [
+              3,
+              [
+                12,
+                "i",
+                "3!@8BH[HU|Q6viSe!--0"
+              ],
+              [
+                7,
+                "1"
+              ]
+            ],
+            "ITEM": [
+              3,
+              "CLo81=ak{Q@mszKbxT43",
+              [
+                10,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "Item.quality",
+              "O*4g4jWG]3WY1J^GXb+|"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "CLo81=ak{Q@mszKbxT43": {
+          "opcode": "operator_subtract",
+          "next": null,
+          "parent": "UV.U+hW6b.Raf9VAT}x~",
+          "inputs": {
+            "NUM1": [
+              3,
+              "s7Q~cm_G:rzEBBO57|d,",
+              [
+                4,
+                ""
+              ]
+            ],
+            "NUM2": [
+              3,
+              "5Usodv[|U*tU:`Un.F8+",
+              [
+                4,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "s7Q~cm_G:rzEBBO57|d,": {
+          "opcode": "data_itemoflist",
+          "next": null,
+          "parent": "CLo81=ak{Q@mszKbxT43",
+          "inputs": {
+            "INDEX": [
+              3,
+              [
+                12,
+                "i",
+                "3!@8BH[HU|Q6viSe!--0"
+              ],
+              [
+                7,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "Item.quality",
+              "O*4g4jWG]3WY1J^GXb+|"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "5Usodv[|U*tU:`Un.F8+": {
+          "opcode": "data_itemoflist",
+          "next": null,
+          "parent": "CLo81=ak{Q@mszKbxT43",
+          "inputs": {
+            "INDEX": [
+              3,
+              [
+                12,
+                "i",
+                "3!@8BH[HU|Q6viSe!--0"
+              ],
+              [
+                7,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "Item.quality",
+              "O*4g4jWG]3WY1J^GXb+|"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "1C)={FA},O_;fgWj7d[4": {
+          "opcode": "operator_lt",
+          "next": null,
+          "parent": "v_!,mjtJ9@C4U=34?cjz",
+          "inputs": {
+            "OPERAND1": [
+              3,
+              "jn{(1gxsKe38?!b~~+7]",
+              [
+                10,
+                ""
+              ]
+            ],
+            "OPERAND2": [
+              1,
+              [
+                10,
+                "50"
+              ]
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "jn{(1gxsKe38?!b~~+7]": {
+          "opcode": "data_itemoflist",
+          "next": null,
+          "parent": "1C)={FA},O_;fgWj7d[4",
+          "inputs": {
+            "INDEX": [
+              3,
+              [
+                12,
+                "i",
+                "3!@8BH[HU|Q6viSe!--0"
+              ],
+              [
+                7,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "Item.quality",
+              "O*4g4jWG]3WY1J^GXb+|"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "{c~]WLfGKJHfnuzu3)t0": {
+          "opcode": "data_replaceitemoflist",
+          "next": null,
+          "parent": "v_!,mjtJ9@C4U=34?cjz",
+          "inputs": {
+            "INDEX": [
+              3,
+              [
+                12,
+                "i",
+                "3!@8BH[HU|Q6viSe!--0"
+              ],
+              [
+                7,
+                "1"
+              ]
+            ],
+            "ITEM": [
+              3,
+              "S^:VAsHm.~!x|\/ivP5IP",
+              [
+                10,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "Item.quality",
+              "O*4g4jWG]3WY1J^GXb+|"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "S^:VAsHm.~!x|\/ivP5IP": {
+          "opcode": "operator_add",
+          "next": null,
+          "parent": "{c~]WLfGKJHfnuzu3)t0",
+          "inputs": {
+            "NUM1": [
+              3,
+              "jX2c\/06T%blATOE~Z}(@",
+              [
+                4,
+                ""
+              ]
+            ],
+            "NUM2": [
+              1,
+              [
+                4,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+
+          },
+          "shadow": false,
+          "topLevel": false
+        },
+        "jX2c\/06T%blATOE~Z}(@": {
+          "opcode": "data_itemoflist",
+          "next": null,
+          "parent": "S^:VAsHm.~!x|\/ivP5IP",
+          "inputs": {
+            "INDEX": [
+              3,
+              [
+                12,
+                "i",
+                "3!@8BH[HU|Q6viSe!--0"
+              ],
+              [
+                7,
+                "1"
+              ]
+            ]
+          },
+          "fields": {
+            "LIST": [
+              "Item.quality",
+              "O*4g4jWG]3WY1J^GXb+|"
+            ]
+          },
+          "shadow": false,
+          "topLevel": false
+        }
+      },
+      "comments": {
+
+      },
+      "currentCostume": 0,
+      "costumes": [
+        {
+          "assetId": "b7853f557e4426412e64bb3da6531a99",
+          "name": "costume1",
+          "bitmapResolution": 1,
+          "md5ext": "b7853f557e4426412e64bb3da6531a99.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 48,
+          "rotationCenterY": 50
+        },
+        {
+          "assetId": "e6ddc55a6ddd9cc9d84fe0b4c21e016f",
+          "name": "costume2",
+          "bitmapResolution": 1,
+          "md5ext": "e6ddc55a6ddd9cc9d84fe0b4c21e016f.svg",
+          "dataFormat": "svg",
+          "rotationCenterX": 46,
+          "rotationCenterY": 53
+        }
+      ],
+      "sounds": [
+        {
+          "assetId": "83c36d806dc92327b9e7049a565c6bff",
+          "name": "Miaou",
+          "dataFormat": "wav",
+          "format": "",
+          "rate": 44100,
+          "sampleCount": 37376,
+          "md5ext": "83c36d806dc92327b9e7049a565c6bff.wav"
+        }
+      ],
+      "volume": 100,
+      "layerOrder": 1,
+      "visible": true,
+      "x": -1,
+      "y": -123,
+      "size": 100,
+      "direction": 90,
+      "draggable": false,
+      "rotationStyle": "all around"
+    }
+  ],
+  "monitors": [
+    {
+      "id": "Lu?*1I:gla}Z^{v-h`Q`",
+      "mode": "list",
+      "opcode": "data_listcontents",
+      "params": {
+        "LIST": "Item.name"
+      },
+      "spriteName": null,
+      "value": [
+        "+5 Dexterity Vest",
+        "Aged Brie",
+        "Elixir of the Mongoose",
+        "Sulfuras, Hand of Ragnaros",
+        "Sulfuras, Hand of Ragnaros",
+        "Backstage passes to a TAFKAL80ETC concert",
+        "Backstage passes to a TAFKAL80ETC concert",
+        "Backstage passes to a TAFKAL80ETC concert",
+        "Conjured Mana Cake"
+      ],
+      "width": 286,
+      "height": 260,
+      "x": 0,
+      "y": 0,
+      "visible": true
+    },
+    {
+      "id": "eo!F=U;lWYkZiS={}%(u",
+      "mode": "list",
+      "opcode": "data_listcontents",
+      "params": {
+        "LIST": "Item.sellIn"
+      },
+      "spriteName": null,
+      "value": [
+        8,
+        0,
+        3,
+        "0",
+        "-1",
+        13,
+        8,
+        3,
+        1
+      ],
+      "width": 100,
+      "height": 264,
+      "x": 287,
+      "y": 0,
+      "visible": true
+    },
+    {
+      "id": "O*4g4jWG]3WY1J^GXb+|",
+      "mode": "list",
+      "opcode": "data_listcontents",
+      "params": {
+        "LIST": "Item.quality"
+      },
+      "spriteName": null,
+      "value": [
+        18,
+        2,
+        5,
+        "80",
+        "80",
+        22,
+        50,
+        50,
+        4
+      ],
+      "width": 100,
+      "height": 264,
+      "x": 378,
+      "y": 0,
+      "visible": true
+    },
+    {
+      "id": "RZ@mb}o\/cM@bWIe3g%y;",
+      "mode": "list",
+      "opcode": "data_listcontents",
+      "params": {
+        "LIST": "items"
+      },
+      "spriteName": null,
+      "value": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "width": 133,
+      "height": 80,
+      "x": 255,
+      "y": 268,
+      "visible": false
+    },
+    {
+      "id": "C;]_eK(LJ[;-+~Y|M96`",
+      "mode": "default",
+      "opcode": "data_variable",
+      "params": {
+        "VARIABLE": "new Item"
+      },
+      "spriteName": null,
+      "value": 9,
+      "width": 0,
+      "height": 0,
+      "x": 5,
+      "y": 267,
+      "visible": false,
+      "sliderMin": 0,
+      "sliderMax": 100,
+      "isDiscrete": true
+    },
+    {
+      "id": "3!@8BH[HU|Q6viSe!--0",
+      "mode": "default",
+      "opcode": "data_variable",
+      "params": {
+        "VARIABLE": "i"
+      },
+      "spriteName": null,
+      "value": 0,
+      "width": 0,
+      "height": 0,
+      "x": 5,
+      "y": 267,
+      "visible": false,
+      "sliderMin": 0,
+      "sliderMax": 100,
+      "isDiscrete": true
+    }
+  ],
+  "extensions": [
+
+  ],
+  "meta": {
+    "semver": "3.0.0",
+    "vm": "0.2.0-prerelease.20190226023539",
+    "agent": "Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/71.0.3578.98 Safari\/537.36"
+  }
+}
